@@ -3,6 +3,8 @@ function showWish(button) {
   document.getElementById("wish1").style.display = "block";
   button.style.display="none";
   startConfetti();
+  const song = document.getElementById("birthdaySong");
+  song.play();
 }
 
 // Simple confetti effect
