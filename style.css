@@ -48,6 +48,9 @@ button:hover {
   color: #444;
 }
 
+.wish1 {
+  display: none;
+}
 canvas#confetti {
   position: fixed;
   top: 0;
