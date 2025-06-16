@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  padding: 0;
+  padding: 20;
   font-family: 'Segoe UI', sans-serif;
   background: linear-gradient(135deg, #f7c6ff, #c2f0fc);
   height: 100vh;
@@ -9,7 +9,9 @@ body {
   align-items: center;
   justify-content: center;
 }
-
+* {
+  box-sizing:border-box;
+}
 .container {
   text-align: center;
   background: white;
@@ -20,7 +22,7 @@ body {
   z-index: 2;
   position: relative;
   max-width: 90%;
-  width: 400px;
+  width: 200px;
   margin-left: auto;
   margin-right: auto;
 }
