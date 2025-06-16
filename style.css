@@ -48,7 +48,7 @@ button:hover {
   color: #444;
 }
 
-.wish1 {
+#wish1 {
   display: none;
 }
 canvas#confetti {
