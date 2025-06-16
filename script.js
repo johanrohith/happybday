@@ -1,6 +1,7 @@
 function showWish() {
   document.getElementById("wish").style.display = "block";
   document.getElementById("wish1").style.display = "block";
+  document.getElementById("button").style.display = "none";
   startConfetti();
 }
 
